@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web Dev</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+	<!--nav bar-->
+	<div class="nav-bar">
+		<div class="nav-container">
+			<a href="./index.html"><img class="nav-img left" src="./images/placeholder.jpg"/></a>
+			<ul class="nav-list">
+				<li class="left"><a class="nav-cell nav-cell-selected" href="./index.html#">Home</a></li>
+				<li class="left"><a class="nav-cell" href="./index.html#about">About</a></li>
+				<li class="right"><a class="nav-cell nav-login" href="./login.html">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div id="home">
+			<img class="background-img" src="./images/web-development.jpg"/>
+			<div class="title center">
+				<h1 class="text-title">Some Title: Part 1</h1>
+			</div>
+		</div>
+		<div id="about" style="height: 1700px;">
+		<!--side bar-->
+			<div class="side-bar">
+				<!--image-->
+				<img class="side-img" src="./images/placeholder.jpg"/>
+				<!--name-->
+				<div class="center"><p class="side-text side-title">Some Text</p></div>
+				<div class="center"><p class="side-text side-dis">Some discription some discription some discription some discription some discription some discription some</p></div>
+				<hr>
+				<a href="https://www.google.com"><div class="side-cell center">Google</div></a>
+				<a href="https://www.w3schools.com"><div class="side-cell center">w3schools</div></a>
+				<a href="https://github.com"><div class="side-cell center">Github</div></a>
+				<a href="https://www.coding4good.net"><div class="side-cell center">Coding for Good</div></a>
+			</div>
+			<!--body-->
+			<div class="about-body">
+				<div class="about-body-container">
+					<h2 class="text-title">Git Rules and tips</h2>
+					<ul>
+						<li class="body-text">Git is powerful and we are using git to manage our code</li>
+						<li class="body-text">Master is automatically deployed to our web server</li>
+						<li class="body-text">Dev is our final working branch(combine everyone’s code before merging into MASTER)</li>
+						<li class="body-text">New feature branches should be used for new features</li>
+						<li class="body-text">More sub branches can be used if needed</li>
+						</br>
+						<li class="body-text">Write commit messages that make sense and helpful</li>
+						<li class="body-text">Fetch all and pull from the branch before push</li>
+						<li class="body-text red">NEVER FORCE PUSH (<span class="danger">unless you know what you are doing</span> still not recommended)</li>
+						<li class="body-text">Merge all sub branches into one feature branch when ready</li>
+						<li class="body-text">Merge target branch(Dev, Master, etc)back into your branch and resolve conflicts in your own branch before merging</li>
+						<li class="body-text">Rebase/squash is recommended before merging feature branch into DEV</li>
+						<li class="body-text red">Always update your branches to the newest before merging(fetch all and pull both target branch and your branch)</li>
+						<li class="body-text">Pull request is enforced for merging into Master, 2 people must review and approve the code carefully</li>
+						<li class="body-text">If you see anything wrong during the code review please tell the person/group or leave a comment on the review about the issue</li>
+						<li class="body-text red">Fully test your feature before merging</about>
+						<li class="body-text">Delete branches that are merged on remote(you can still keep it on your local)</li>
+					</ul>
+					<img class="body-img" src="./images/Untitled.png"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<footer class="footer">
+	    <p class="footer-text">© 2018 Jialuo Gao</p>
+	</footer>
+</body>
+
+</html>
